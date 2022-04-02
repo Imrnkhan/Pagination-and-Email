@@ -98,11 +98,11 @@ app.post("/admin", async (req, res) => {
     }
 })
 
-app.listen(3000, async () => {
+app.listen(4000, async () => {
     try {
         await connect();
     } catch (error) {
         console.log(error)
     }
-    console.log("Listening to port 3000")
+    console.log("Listening to port 4000")
 })
